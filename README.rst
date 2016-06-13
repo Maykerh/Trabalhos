@@ -18,7 +18,7 @@ Daniel Custodio `@danielcustodio1 <https://github.com/danielcustodio1>`_ ,
 Gustavo Raphael `@gustavoraphael <https://github.com/gustavoraphael>`_ ,
 João Reis  `@joaoreis1996 <https://github.com/joaoreis1996>`_ ,
 Ricardo `@ricardoadilson <https://github.com/ricardoadilson>`_,
-Leandro, Juan, Marco, Marcelo, Jeferson.
+Leandro, Juan `@juanvictorcorrea <https://github.com/juanvictorcorrea>`_ , Marco, Marcelo, Jeferson.
 
 * PostgreSQL
 
