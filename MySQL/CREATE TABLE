@@ -92,3 +92,38 @@ CREATE  TABLE `minhacaixa`.`tab_agencia` (
     ON UPDATE NO ACTION);
 
 ---------------------------------------------------
+
+/* ***************** */  /* Criado as tabelas devedores e emprestimos - por Daniel Fernando Gonçalves    */
+
+CREATE  TABLE `minhacaixa`.`tab_devedores` (
+  `cod_devedor` INT NOT NULL ,
+  `saldo_devedor` DOUBLE NOT NULL ,
+  `cod_cliente` INT NOT NULL ,
+  PRIMARY KEY (`cod_devedor`) ,
+  INDEX `FK_cod_cliente_idx` (`cod_cliente` ASC) ,
+  CONSTRAINT `FK_cod_cliente`
+    FOREIGN KEY (`cod_cliente` )
+    REFERENCES `minhacaixa`.`tab_cliente` (`cod_cliente`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
+	
+	CREATE  TABLE `minhacaixa`.`tab_emprestimo` (
+  `cod_emprestimo` INT NOT NULL ,
+  `tot_emprestimo` DOUBLE NOT NULL ,
+  `cod_cliente` INT NOT NULL ,
+  `cod_agencia` INT NOT NULL ,
+  PRIMARY KEY (`cod_emprestimo`) ,
+  INDEX `FK_cod_cliente_idx` (`cod_cliente` ASC) ,
+  CONSTRAINT `FK_cod_cliente`
+    FOREIGN KEY (`cod_cliente` )
+    REFERENCES `minhacaixa`.`tab_cliente` (`cod_cliente`)
+	
+	INDEX `FK_cod_agencia_idx` (`cod_agencia` ASC) ,
+  CONSTRAINT `FK_cod_agencia`
+    FOREIGN KEY (`cod_agencia` )
+    REFERENCES `minhacaixa`.`tab_agencia` (`cod_agencia`)
+	
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
+
+ /* ******************************************  */
