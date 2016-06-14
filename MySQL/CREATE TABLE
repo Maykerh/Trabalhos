@@ -1,4 +1,4 @@
-CREATE TABLE tab_agencia (
+﻿CREATE TABLE tab_agencia (
 cod_agencia int(10) NOT NULL AUTO_INCREMENT,
 nm_agencia char(255),
 cid_agencia char(255),
@@ -33,7 +33,7 @@ cid_cliente
 dtnasc_cliente
 
 
-TAB_CONTAS
+TAB_CONTAS // Juan
 cod_conta
 saldo_conta
 dtabert_conta
@@ -127,3 +127,13 @@ CREATE  TABLE `minhacaixa`.`tab_devedores` (
     ON UPDATE NO ACTION);
 
  /* ******************************************  */
+by Juan
+CREATE TABLE tab_contas (
+cod_conta int PRIMARY KEY,
+saldo_conta decimal,
+dtabert_conta date,
+cod_agencia int,
+cod_cliente int,
+FOREIGN KEY(cod_agencia) REFERENCES tab_agencia (cod_agencia),
+FOREIGN KEY(cod_cliente) REFERENCES tab_cliente (cod_cliente)
+);
