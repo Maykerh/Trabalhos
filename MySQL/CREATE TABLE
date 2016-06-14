@@ -49,13 +49,13 @@ cod_conta
 cod_cliente
 
 
-TAB_DEVEDORES
+TAB_DEVEDORES //Daniel F.
 cod_devedor
 saldo_devedor
 cod_cliente
 
 
-TAB_EMPRESTIMO
+TAB_EMPRESTIMO //Daniel F.
 cod_emprestimo
 tot_emprestimo
 cod_cliente
