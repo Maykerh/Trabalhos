@@ -34,7 +34,7 @@ Alexandre `@alexandreWP <https://github.com/AlexandreWP>`_
 
 * Oracle
 
-William, 
+William Rozin Gaspar `@williamrozin <https://github.com/williamrozin>`_, 
 Gustavo Alexsander Ruske `@ruske <https://github.com/GustavoRuske>`_,
 Marcos Peters `@marcospeters <https://github.com/marcospeters>`_, 
 Lucas `@lucaswolfgramm <https://github.com/lucaswolfgramm>`_, 
