@@ -53,7 +53,7 @@ jefferson de souza gaieuski
 joão marcos schmalz, joão paulo furlanetto de souza	
 joão vitor borba paul, karoline zimermann de souza	
 luan sergio de lima ribas, marcelo willyan de sena	
-marco aurélio dalacort marques, @Maykerh <https://github.com/Maykerh>`_,
+marco aurélio dalacort marques, `@Maykerh <https://github.com/Maykerh>`_,
 ricardo adilson da silva, samuel joão geron,
 william rozin gaspar, willian vilson da cruz
 
